@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Center(
       child: Image.network(
-          "https://img.freepik.com/premium-vector/medical-halth-care-icon_602006-1675.jpg?w=996"),
+          "https://img.freepik.com/premium-vector/medical-halth-care-icon_602006-1675.jpg?w=996" , height: 100),
     );
   }
 }
